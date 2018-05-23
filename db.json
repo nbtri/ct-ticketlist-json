@@ -1,25 +1,20 @@
 {
-  "api": {
-  	"ticket": {
-  		"list": {
-  			"columns": [
-  				{
-				  "dataField": "id",
-				  "text": "Product ID"
-				}, {
-				  "dataField": "name",
-				  "text": "Product Name"
-				}, {
-				  "dataField": "price",
-				  "text": "Product Price"
-				}],
-  			"items": [
-  				[1, "A", "100$"],
-  				[2, "B", "200$"],
-				[3, "C", "300$"]
-  			],
-  			"filters": []
-  		}
-  	}
-  }
+	"columns": [
+		{
+		  "dataField": "id",
+		  "text": "Product ID"
+		}, {
+		  "dataField": "name",
+		  "text": "Product Name"
+		}, {
+		  "dataField": "price",
+		  "text": "Product Price"
+		}
+	],
+	"items": [
+		[1, "A", "100$"],
+		[2, "B", "200$"],
+		[3, "C", "300$"]
+	],
+	"filters": []
 }
