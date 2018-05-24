@@ -1,19 +1,18 @@
 {
-	"columns": [
+	"columns": [{
+			"dataField": "id",
+			"text": "ID",
+			"filter": "textFilter()"
+		},
 		{
-		  "dataField": "id",
-		  "text": "ID",
-		  "filter": "textFilter()"
-		}, 
+			"dataField": "order_id",
+			"text": "Mã Đơn Hàng",
+			"filter": "textFilter()"
+		},
 		{
-		  "dataField": "order_id",
-		  "text": "Mã Đơn Hàng",
-		  "filter": "textFilter()"
-		}, 
-		{
-		  "dataField": "customer_id",
-		  "text": "ID khách hàng",
-		  "filter": "textFilter()"
+			"dataField": "customer_id",
+			"text": "ID khách hàng",
+			"filter": "textFilter()"
 		},
 		{
 			"dataField": "status",
@@ -55,5 +54,33 @@
 			"text": "Lý do từ chối",
 			"filter": "textFilter()"
 		}
-	]
+	],
+	"items": [{
+			"id": "1",
+			"order_id": "1000",
+			"customer_id": "NKDHSD00",
+			"status": "FAILED",
+			"type_id": "ABC",
+			"reason_id": "ABC1",
+			"creation_date": "24/05/2018",
+			"creator_id": "111",
+			"decline_date": "24/05/2018",
+			"declined_id": "222",
+			"reason_policy": "NONE"
+		},
+		{
+			"id": "2",
+			"order_id": "1001",
+			"customer_id": "NKDHSD00",
+			"status": "FAILED",
+			"type_id": "ABC",
+			"reason_id": "ABC1",
+			"creation_date": "24/05/2018",
+			"creator_id": "111",
+			"decline_date": "24/05/2018",
+			"declined_id": "222",
+			"reason_policy": "NONE"
+		}
+	],
+	"filters": []
 }
