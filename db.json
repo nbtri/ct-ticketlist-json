@@ -1,4 +1,60 @@
 {
+	"columns": [{
+			"dataField": "id",
+			"text": "ID",
+			"filter": "textFilter()"
+		},
+		{
+			"dataField": "order_id",
+			"text": "Ma Don hang",
+			"filter": "textFilter()"
+		},
+		{
+			"dataField": "customer_id",
+			"text": "ID khach hang",
+			"filter": "textFilter()"
+		},
+		{
+			"dataField": "status",
+			"text": "Trang thai",
+			"filter": "textFilter()"
+		},
+		{
+			"dataField": "type_id",
+			"text": "Loai khieu nai",
+			"filter": "textFilter()"
+		},
+		{
+			"dataField": "reason_id",
+			"text": "Nguyen nhan",
+			"filter": "textFilter()"
+		},
+		{
+			"dataField": "creation_date",
+			"text": "Ngay tao",
+			"filter": "textFilter()"
+		},
+		{
+			"dataField": "creator_id",
+			"text": "Nguoi tao",
+			"filter": "textFilter()"
+		},
+		{
+			"dataField": "decline_date",
+			"text": "Ngay tu choi",
+			"filter": "textFilter()"
+		},
+		{
+			"dataField": "declined_id",
+			"text": "Nguoi tu choi",
+			"filter": "textFilter()"
+		},
+		{
+			"dataField": "reason_policy",
+			"text": "Ly do tu choi",
+			"filter": "textFilter()"
+		}
+	],
 	"items": [{
 			"id": "1",
 			"order_id": "1000",
