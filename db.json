@@ -2,19 +2,63 @@
 	"columns": [
 		{
 		  "dataField": "id",
-		  "text": "Product ID"
-		}, {
-		  "dataField": "name",
-		  "text": "Product Name"
-		}, {
-		  "dataField": "price",
-		  "text": "Product Price"
+		  "text": "ID",
+		  "filter": textFilter()
+		}, 
+		{
+		  "dataField": "order_id",
+		  "text": "Mã Đơn Hàng",
+		  "filter": textFilter()
+		}, 
+		{
+		  "dataField": "customer_id",
+		  "text": "ID khách hàng",
+		  "filter": textFilter()
+		},
+		{
+			"dataField": "status",
+			"text": "Trạng thái",
+			"filter": textFilter()
+		},
+		{
+			"dataField": "type_id",
+			"text": "Loại khiếu nại",
+			"filter": textFilter()
+		},
+		{
+			"dataField": "reason_id",
+			"text": "Nguyên nhân",
+			"filter": textFilter()
+		},
+		{
+			"dataField": "creation_date",
+			"text": "Ngày tạo",
+			"filter": textFilter()
+		},
+		{
+			"dataField": "creator_id",
+			"text": "Người tạo",
+			"filter": textFilter()
+		},
+		{
+			"dataField": "decline_date",
+			"text": "Ngày từ chối",
+			"filter": textFilter()
+		},
+		{
+			"dataField": "declined_id",
+			"text": "Người từ chối",
+			"filter": textFilter()
+		},
+		{
+			"dataField": "reason_policy",
+			"text": "Lý do từ chối",
+			"filter": textFilter()
 		}
 	],
 	"items": [
-		{"id": 1, "name": "A", "price":"100$"},
-		{"id": 2, "name": "B", "price":"200$"},
-		{"id": 3, "name": "C", "price":"300$"}
+		{"id": 1, "order_id": "1000", "customer_id": "NKDHSD00", "status": "FAILED", "type_id": "ABC", "reason_id": "ABC1", "creation_date": "24/05/2018", "creator_id": "111", "decline_date": "24/05/2018", "declined_id": "222", "reason_policy": "NONE"},
+		{"id": 2, "order_id": "1001", "customer_id": "NKDHSD00", "status": "FAILED", "type_id": "ABC", "reason_id": "ABC1", "creation_date": "24/05/2018", "creator_id": "111", "decline_date": "24/05/2018", "declined_id": "222", "reason_policy": "NONE"}
 	],
 	"filters": []
 }
