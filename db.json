@@ -82,5 +82,11 @@
 			"reason_policy": "NONE"
 		}
 	],
-	"filters": []
+	"filters": [],
+	"pagination": {
+        "sizePerPage": 1,
+        "totalSize": 5,
+        "page": 1
+    }
+	"totalItems": 1000,
 }
